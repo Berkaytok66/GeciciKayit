@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDialog">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rules" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BİLGİLENDİRME METNİ"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDialog"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_border"
+            android:text="1- Bu hizmete sadece 2 ay geçici kayıt yaptırabilirsiniz.\n
+\n2- İşlem süresi 72 saattir. 72 saat sonunda işlem başarılı olmaz ise iletişime geçin.\n
+\n3- 72 saati doldurmadan iletişim kuran kulanıcılara geri dünüş sağlanmayacaktır.\n
+\n4- İşlem yapmak için *#06# yaparak imei numaranızı yazmanız ve ücret ödemeniz yeterlidir.\n
+\n5- Yapılan İşlemler tamamen YASALDIR.\n
+\n6- Yurt dışından işlem yapılan imei numaraları geçersizdir ve ücret iadesi soz konusu değildir.\n
+\n7- İşlem yapılan imei numarasını önce E-DEVLET'ten kontrol ediniz.Sorgu sonucu CALINTI, KLON, 7 YIL VE DAHA UZUN SÜRE KULLANILMAYAN İMEİ NUMARALARI işleme alınması söz konusu değildir. ÜCRET İADESİ SOZ KONUSU DEĞİLDİR.\n
+\n8- IMEI Sorgulamada 'Kayıt dışı' yazmalıdır.\n
+\n9- Diğer durumlardaki başarısız işlemlerde kullanıcılarımıza yardımcı olma sözü veriyoruz.\n
+\n10- Tüm modellerde geçerlidir.\n"
+            android:textColor="@color/black"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/info_button_dialog"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/info_bacgrount_button"
+            android:text="ANLADIM, DEVAM EDELİM"
+            android:textColor="@color/colorPrimaryDialog" />
+
+    </LinearLayout>
+
+</LinearLayout>

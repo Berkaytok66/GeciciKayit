@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/imei"
+        android:title="imei"
+        android:icon="@drawable/imei_icons"/>
+    <item
+        android:id="@+id/durum"
+        android:title="Durum"
+        android:icon="@drawable/durum_icon"/>
+    <item
+        android:id="@+id/home"
+        android:title="profil"
+        android:icon="@drawable/profil_image"/>
+    <item
+        android:id="@+id/help"
+        android:title="Help"
+        android:icon="@drawable/help_icon"/>
+
+</menu>

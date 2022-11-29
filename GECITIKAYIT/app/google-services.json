@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "768700883507",
+    "project_id": "gecicikayit",
+    "storage_bucket": "gecicikayit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768700883507:android:7e80e694b8c1fd22a3b946",
+        "android_client_info": {
+          "package_name": "com.gecici.gecickayit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768700883507-v2jks0fi82k2g8fb6r3is9lub1hvniui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd2BocEdt1k-a6jJxo5Dl1TO03-fhsEG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "768700883507-v2jks0fi82k2g8fb6r3is9lub1hvniui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

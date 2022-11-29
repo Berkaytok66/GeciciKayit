@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Geçiçi Kayıt</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="uygulama_id">ca-app-pub-4626303575477690~2050327501</string>
+    <string name="reklam_id">ca-app-pub-4626303575477690/1763101632</string>
+    <string name="reklam_test_id">ca-app-pub-3940256099942544~3347511713</string>
+</resources>

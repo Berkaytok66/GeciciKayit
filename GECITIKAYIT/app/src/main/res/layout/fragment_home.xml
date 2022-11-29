@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_bacgrount"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/profil_image"
+                android:layout_width="100dp"
+                android:layout_height="108dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/profil_image" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="78dp"
+                android:layout_toEndOf="@+id/profil_image"
+                android:fontFamily="@font/font2"
+                android:includeFontPadding="false"
+                android:text="PROFİL BİLGİLERİM"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/kullaniciId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="12dp"
+                android:layout_toEndOf="@id/profil_image"
+                android:text="kullanici id"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp"
+
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextName"
+                android:hint="Kullanıcı Adı"
+                android:enabled="false"
+                android:background="#A3FFFFFF"
+                android:layout_marginBottom="10dp">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:drawableStart="@drawable/ic_baseline_person_outline_24"
+                    android:drawablePadding="10dp"
+                    android:text="BErkaytok66"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/kullaniciGmail"
+                android:hint="Gmail"
+                android:background="#A3FFFFFF"
+                android:enabled="false"
+                android:layout_marginBottom="10dp">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/gmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:drawableStart="@drawable/ic_baseline_email_24"
+                    android:drawablePadding="10dp"
+                    android:text="berkaytok66@gmail.com"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/kullaniciPasword"
+                android:hint="Şifre"
+                android:enabled="false"
+                android:background="#A3FFFFFF"
+                app:hintTextColor="@color/black"
+                android:layout_marginBottom="10dp">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/pasword"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/key"
+                    android:drawablePadding="10dp"
+                    android:text="BErkaytok66"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/kullaniciKredit"
+                android:hint="Kalan Kredi"
+                android:enabled="false"
+                android:background="#A3FFFFFF"
+                android:layout_marginBottom="10dp">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/kredi"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:drawableStart="@drawable/ic_baseline_currency_bitcoin_24"
+                    android:drawablePadding="10dp"
+                    android:text="NEXT UPTADE"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hesaptan Cıkış YAP"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font"
+                android:textSize="20dp"
+                android:id="@+id/exit_button"
+                android:background="#DC06810B"/>
+
+        </LinearLayout>
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            app:adSize="BANNER"
+            android:layout_gravity="center"
+            app:adUnitId="ca-app-pub-4626303575477690/9547998987"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/destekbutton">
+
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+</ScrollView>
